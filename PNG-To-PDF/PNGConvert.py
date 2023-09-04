@@ -8,7 +8,7 @@ archivos_png = ['resources/out/CV1.png', 'resources/out/CV2.png']
 pdf_output = 'resources/output.pdf'
 c = canvas.Canvas(pdf_output, pagesize=letter)
 
-# Iteration sheep
+# Iteration sheet
 for archivo_png in archivos_png:
     c.drawImage(archivo_png, 0, 0, width=letter[0], height=letter[1])
     c.showPage()
